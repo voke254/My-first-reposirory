@@ -1,0 +1,32 @@
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    background: white;
+    
+    
+} 
+.info {
+    display: grid;
+    background: #ddd;
+    width: 33.3%;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 15px;
+    text-align: center;
+}
+.info h1{
+    font: 30px Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding-top: 30px; 
+}
+.info a{
+    color: rgb(199, 62, 21);
+    font: 16px Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-decoration: none; 
+    
+}
